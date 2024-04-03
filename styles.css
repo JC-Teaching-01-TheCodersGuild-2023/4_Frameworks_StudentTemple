@@ -1,0 +1,48 @@
+/* Demo 1 */
+/* Examples of targeting tags */
+p {
+  color: red;
+}
+
+h1 {
+  color: green;
+}
+
+button {
+  background-color: lightskyblue;
+}
+
+button:hover {
+  background-color: bisque;
+  cursor: pointer;
+}
+
+/* example of targting a class */
+.class-example {
+  color: blue;
+}
+
+/* example of targetting an ID */
+#id-example {
+  background: grey;
+}
+
+/* Demo 2 */
+/* Demostrate Flex = direction, spacing, aligning, wrapping, gap(remove margin) */
+/* Demostrate Grid =  control position, take up space, gap(remove margin) */
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+  height: 200px;
+  margin-top: 50px;
+}
+
+.flex-container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 50px;
+  font-size: 30px;
+}
